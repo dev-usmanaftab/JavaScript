@@ -7,3 +7,4 @@ var isEven = true;
 var myName = "Usman Aftab";
 var emptyVariable  = null;
 var unInitialized  = undefined;
+console.log(myName);
