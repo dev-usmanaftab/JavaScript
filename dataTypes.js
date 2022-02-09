@@ -1,8 +1,9 @@
-// Data Types: boolean, number, string, symbol, object, null, undefined. 
+// Data Types: Null, Undefined, Boolean, Number, BigInt, String, Symbol, Object. 
 
 const pi = 3.14;
 var num1 = 10;
 let num2 = 20;
+var num3 = 1000n;   //BigInt
 var isEven = true;
 var myName = "Usman Aftab";
 var emptyVariable  = null;
