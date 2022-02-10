@@ -1,4 +1,4 @@
-// Data Types: Null, Undefined, Boolean, Number, BigInt, String, Symbol, Object. 
+// Data Types: Null, Undefined, Boolean, Number, BigInt, String, Object, Symbol. 
 
 const pi = 3.14;
 var num1 = 10;
@@ -9,3 +9,4 @@ var myName = "Usman Aftab";
 var emptyVariable  = null;
 var unInitialized  = undefined;
 console.log(myName);
+
