@@ -50,7 +50,7 @@ console.log( typeof(conToFloat) );
 var billion1 = 1000000000;
 var billion2 = 1_000_000_000;
 var billion3 = 1e9;
-var micro1 = 0.0000001;
+var micro1 = 0.000001;
 var micro2 = 1e-6;
 var milli = 1e-3;
 
