@@ -15,3 +15,4 @@ if ( grade >= 50 && grade <60 ) {
 } else {
     alert(`You Entered incorrect Marks!!! `);
 }
+

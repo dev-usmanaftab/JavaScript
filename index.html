@@ -5,16 +5,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
+            $("#script").html(`<script src="main.js"></script>`);
+            
             $("#addScript").click(function(){
                 $.getScript("ifStatment.js");
-            });    
+            });
+
         });
-    
     </script>
 </head>
 <body>
 
-<button id="addScript">if else demo</button>
+    <button id="addScript">if else Demo</button>
+
+<div id="script"></div>
 
 </body>
 </html>
