@@ -1,4 +1,4 @@
-var grade = prompt( "Enter Your Marks out of 100", "0 - 100" ) ;
+var grade = prompt( "Enter Your Marks to check your grade.", "0 - 100" ) ;
 
 if ( grade >= 50 && grade <60 ) {
     alert(`Your grade is D`);
