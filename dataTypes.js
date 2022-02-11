@@ -1,3 +1,8 @@
+/* Var is used to declare those variable which we want to use in whole program.
+   Let is used to declare those variable which we want to use in a Specific Scope.
+   Const is used to declare those variable which will remain Constant in whole program. 
+*/
+
 // Data Types: Null, Undefined, Boolean, Number, BigInt, String, Object, Symbol. 
 
 const pi = 3.14;
@@ -9,4 +14,3 @@ var myName = "Usman Aftab";
 var emptyVariable  = null;
 var unInitialized  = undefined;
 console.log(myName);
-
