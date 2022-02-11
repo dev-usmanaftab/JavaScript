@@ -5,7 +5,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-            $("#script").html(`<script src="main.js"></script>`);
+            var str = '<script src="main.js">' + "<"+"/script>";
+            $("#script").html(str);
             
             $("#addScript").click(function(){
                 $.getScript("ifStatment.js");
@@ -17,8 +18,8 @@
 <body>
 
     <button id="addScript">if else Demo</button>
+    <div id="script"></div>
 
-<div id="script"></div>
-
+    
 </body>
 </html>
