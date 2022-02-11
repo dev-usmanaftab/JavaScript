@@ -13,4 +13,19 @@ var isEven = true;
 var myName = "Usman Aftab";
 var emptyVariable  = null;
 var unInitialized  = undefined;
+
+/*------------------------------------------------------*/
+
 console.log(myName);
+console.log( typeof(myName) );
+
+var Str = String(num1);
+console.log( Str );
+console.log( typeof(Str) );
+
+var Num = Number("200")
+console.log(Num);
+console.log(typeof(Num));
+
+/*------------------------------------------------------*/
+
