@@ -63,4 +63,17 @@ console.log(milli);
 
 /*------------------------------------------------------*/
 
+var minNum = Math.min(5, 3, 2, 15, 10, 8);
+var maxNum = Math.max(5, 3, 2, 15, 10, 8);
+var sqrtNum= Math.sqrt(25);
+var randNum= parseInt( Math.random() * 10 );
+var numPower = Math.pow(6,2);
+
+console.log(minNum);
+console.log(maxNum);
+console.log(sqrtNum);
+console.log(randNum);
+console.log(numPower);
+
+/*------------------------------------------------------*/
 
