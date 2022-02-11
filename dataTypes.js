@@ -19,13 +19,31 @@ var unInitialized  = undefined;
 console.log(myName);
 console.log( typeof(myName) );
 
+/*------------------------------------------------------*/
+
 var Str = String(num1);
 console.log( Str );
 console.log( typeof(Str) );
 
+/*------------------------------------------------------*/
+
 var Num = Number("200")
 console.log(Num);
 console.log(typeof(Num));
+
+/*------------------------------------------------------*/
+
+var str1 = "250hello world";
+var covToInt = parseInt(str1);
+console.log( covToInt );
+console.log( typeof(covToInt) );
+
+/*------------------------------------------------------*/
+
+var str2 = "hello 25.35";
+var conToFloat = parseFloat(str2);
+console.log(conToFloat);
+console.log( typeof(conToFloat) );
 
 /*------------------------------------------------------*/
 
