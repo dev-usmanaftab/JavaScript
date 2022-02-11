@@ -2,12 +2,19 @@
 <html>
 <head>
     <title>JavaScript</title>
-    <script src="main.js"></script>
-    <script src="ifStatment.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#addScript").click(function(){
+                $.getScript("ifStatment.js");
+            });    
+        });
+    
+    </script>
 </head>
 <body>
-    
 
+<button id="addScript">if else demo</button>
 
 </body>
 </html>
